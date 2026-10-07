@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://hearthsidepixel.com/sitemap.xml
