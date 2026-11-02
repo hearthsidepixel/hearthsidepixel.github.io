@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cozy Cottage Color by Number on Amazon</title><meta name="robots" content="noindex">
+<style>body{font-family:system-ui,sans-serif;background:#1b1916;color:#f3e6cf;display:flex;min-height:100vh;align-items:center;justify-content:center;margin:0;text-align:center}a{color:#e3b04b}</style>
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "07fb47a85bb74cbe86effce74a00bf7b"}'></script></head><body><p>Opening <b>Cozy Cottage Color by Number</b> on Amazon…<br><br><a id="go" href="/go/tom2/">Tap here if nothing happens</a></p>
+<script>
+(function(){
+var ASIN='B0HP6PZV3Y';
+// Amazon stores that sell KDP paperbacks
+var STORE={US:'com',GB:'co.uk',IE:'co.uk',DE:'de',AT:'de',CH:'de',FR:'fr',LU:'fr',IT:'it',ES:'es',PT:'es',NL:'nl',BE:'com.be',
+ PL:'pl',SE:'se',DK:'se',NO:'se',FI:'se',CA:'ca',AU:'com.au',NZ:'com.au',JP:'co.jp'};
+var TZ={'Europe/London':'GB','Europe/Belfast':'GB','Europe/Guernsey':'GB','Europe/Jersey':'GB','Europe/Isle_of_Man':'GB','Europe/Dublin':'IE',
+ 'Europe/Berlin':'DE','Europe/Busingen':'DE','Europe/Vienna':'AT','Europe/Zurich':'CH','Europe/Paris':'FR','Europe/Luxembourg':'LU',
+ 'Europe/Rome':'IT','Europe/Madrid':'ES','Atlantic/Canary':'ES','Africa/Ceuta':'ES','Europe/Lisbon':'PT','Europe/Amsterdam':'NL',
+ 'Europe/Brussels':'BE','Europe/Warsaw':'PL','Europe/Stockholm':'SE','Europe/Copenhagen':'DK','Europe/Oslo':'NO','Europe/Helsinki':'FI',
+ 'Asia/Tokyo':'JP','Pacific/Auckland':'NZ'};
+function country(){
+  var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}
+  if(TZ[tz])return TZ[tz];
+  if(/^Australia\//.test(tz))return 'AU';
+  var CA=['Toronto','Vancouver','Montreal','Edmonton','Winnipeg','Halifax','St_Johns','Regina','Moncton','Whitehorse','Yellowknife','Iqaluit','Glace_Bay','Goose_Bay','Swift_Current','Dawson_Creek','Fort_Nelson','Rankin_Inlet','Cambridge_Bay','Inuvik','Atikokan','Creston','Dawson','Resolute'];
+  for(var i=0;i<CA.length;i++)if(tz==='America/'+CA[i])return 'CA';
+  if(/^(America|Pacific\/Honolulu)/.test(tz))return 'US';
+  var l=(navigator.languages&&navigator.languages[0])||navigator.language||'';var m=l.match(/-([A-Za-z]{2})$/);
+  return m?m[1].toUpperCase():'US';
+}
+var c=country(),d=STORE[c]||'com';
+var url='https://www.amazon.'+d+'/dp/'+ASIN;
+document.getElementById('go').href=url;
+var done=false;function go(){if(!done){done=true;location.replace(url)}}
+window.addEventListener('load',function(){setTimeout(go,250)});setTimeout(go,1500);
+})();
+</script></body></html>
